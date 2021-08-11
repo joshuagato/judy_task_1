@@ -9,3 +9,33 @@ html, body {
 body {
     background-color: azure;
 }
+
+#main-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#central-spacing {
+    margin: 0 3rem;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+    padding: 15px;
+    vertical-align: middle;
+    border: 1px bisque solid;
+}
+
+#csv-input-label, #csv-output-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#csv-input-label span, #csv-output-label span {
+    margin-bottom: 20px;
+}
+
