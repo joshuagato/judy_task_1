@@ -5,3 +5,7 @@
 html, body {
     height: 95vh;
 }
+
+body {
+    background-color: azure;
+}
